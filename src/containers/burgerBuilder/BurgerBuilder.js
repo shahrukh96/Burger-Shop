@@ -62,7 +62,6 @@ class BurgerBuilder extends Component {
     }
 
     const orderButtonDisable = this.state.totalPrice > 4;
-    console.log(orderButtonDisable);
 
     return (
       <Aux>
